@@ -10,6 +10,9 @@ I started with `create-next-app --template default --use-npm` and made these cha
 - removed the favicon and Vercel logo from `public`, and added a `.gitignore` to persist the empty directory.
 - added a basic `pages/_document.js`
 
+## Notes
+- This uses `pages` and not `app`, although it uses Next 13 (i.e. it isn't using the newer experimental features, for now).
+- This uses javascript and not typescript.
 
 ## Getting Started
 
